@@ -1,4 +1,6 @@
-﻿using System;
+﻿using DapperEssay;
+using System;
+using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
 
@@ -14,14 +16,23 @@ namespace Dapper
 
             string sql = "";
 
-            void CRUD()
+            void CRUD(DynamicParameters dynamic=null)
             {
                 if (conn.State == ConnectionState.Closed)
                 {
                     conn.Open();
                 }
-                conn.Execute(sql);
+                conn.Execute(sql,dynamic,commandType:CommandType.Text);
                 conn.Close();
+            }
+
+            List<User> users = new List<User>();
+
+            users = conn.Query<User>("Select * from User") as List<User>;
+
+            foreach (var item in users)
+            {
+                Console.WriteLine(item.Name);
             }
 
         }
