@@ -26,9 +26,9 @@ namespace Dapper
                 conn.Close();
             }
 
-            List<User> users = new List<User>();
+            IEnumerable<User> users = new List<User>();
 
-            users = conn.Query<User>("Select * from User") as List<User>;
+            users = conn.Query<User>("Select * from [User]");
 
             foreach (var item in users)
             {
