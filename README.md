@@ -6,5 +6,6 @@ When developing a project, there are many ways to manage the project's database 
 First of all, if newer ones are slower, why do we use them? Because they are more readable, away from clutter. So what are these old and new methods?
 <br> 
 <br>
-Oldest : Ado.Net
+Oldest : Ado.Net 
+<br>
 Newest : ORM
