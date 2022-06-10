@@ -9,3 +9,7 @@ First of all, if newer ones are slower, why do we use them? Because they are mor
 Oldest : Ado.Net 
 <br>
 Newest : ORM
+<br> <br>
+<h3> Ado.Net </h3>
+<br>
+Ado.Net, which stands for "ActiveX Data Objects.NET", was made by Microsoft to act as a bridge between our applications and databases.
