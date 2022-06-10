@@ -12,4 +12,6 @@ Newest : ORM
 <br> <br>
 <h3> Ado.Net </h3>
 <br>
-Ado.Net, which stands for "ActiveX Data Objects.NET", was made by Microsoft to act as a bridge between our applications and databases.
+Ado.Net, which stands for "ActiveX Data Objects.NET", was made by Microsoft to act as a bridge between our applications and databases. Adding, deleting, updating and listing operations can be done in the database by writing SQL queries and commands to the application.
+<br>
+<h3> ORM </h3>
