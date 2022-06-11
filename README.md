@@ -16,4 +16,4 @@ Ado.Net, which stands for "ActiveX Data Objects.NET", was made by Microsoft to a
 <br>
 <h3> ORM </h3>
 <br>
-ORM is a technique that can access the database, make changes to the data and make queries using object-oriented programming languages.
+ORM is a technique that can access the database, make changes to the data and make queries using object-oriented programming languages. The ORM technique, which is a layer between the database and the project, actually serves the SOLID principles by separating the two jobs.
