@@ -19,3 +19,5 @@ Ado.Net, which stands for "ActiveX Data Objects.NET", was made by Microsoft to a
 ORM is a technique that can access the database, make changes to the data and make queries using object-oriented programming languages. The ORM technique, which is a layer between the database and the project, actually serves the SOLID principles by separating the two jobs.
 <br>
 Another advantage of using the ORM technique is to make the database independent.Of course, this may vary depending on the ORM technique to be used, but you can easily switch between databases according to the ORM technique you will use.
+<br>
+Another important point for ORM technique is libraries. When using Ado.Net, the library is not used, but ORM techniques must be used with libraries.
